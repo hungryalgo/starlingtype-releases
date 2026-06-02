@@ -1,0 +1,68 @@
+# StarlingType — End User License Agreement (EULA)
+
+**Version 1.0 — Effective 2026-05-30**
+
+Copyright © 2026 Spec Envoy. All rights reserved.
+
+This EULA governs your use of StarlingType ("the Software"). By
+installing, copying, or otherwise using the Software, you agree to
+the terms below. If you do not agree, do not use the Software.
+
+## 1. Grant of Use
+
+You are granted a non-exclusive, royalty-free, worldwide right to
+install, run, and use the Software on any computers you personally
+own or use.
+
+## 2. Restrictions
+
+You may not:
+- Redistribute, sell, rent, lease, or sublicense the Software
+- Reverse engineer, decompile, or disassemble the Software, except to
+  the extent expressly permitted by applicable law
+- Remove or alter any copyright, trademark, or other proprietary
+  notices in the Software or its documentation
+- Use the Software to violate any applicable law
+
+## 3. Source Code
+
+The Software is closed-source. Source code is not provided under this
+EULA. A future version of the Software may be released under an
+open-source license at the publisher's sole discretion.
+
+## 4. Third-Party Software
+
+The Software incorporates third-party open-source components listed
+in Part 2 of the in-app `LICENSES.md` file (accessible via the menu
+bar popover → Licenses button). Each component is distributed under
+its own license. Nothing in this EULA limits or modifies your rights
+under those licenses.
+
+## 5. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT
+WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, AND NONINFRINGEMENT. THE PUBLISHER MAKES NO REPRESENTATION
+OR WARRANTY THAT THE SOFTWARE IS ERROR-FREE OR WILL OPERATE WITHOUT
+INTERRUPTION.
+
+## 6. Limitation of Liability
+
+IN NO EVENT SHALL THE PUBLISHER, AUTHORS, OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF DATA, LOSS OF PROFITS, OR
+BUSINESS INTERRUPTION) ARISING IN ANY WAY OUT OF THE USE OF OR
+INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGES. YOUR USE OF THE SOFTWARE IS AT YOUR OWN RISK.
+
+## 7. Termination
+
+This EULA terminates automatically if you violate its terms. Upon
+termination, you must cease all use of the Software and destroy all
+copies in your possession.
+
+## 8. Contact
+
+For questions about this license or to request permission for uses
+not granted above, contact: starlingtype+legal@gmail.com
