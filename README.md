@@ -6,6 +6,8 @@
 [![Download](https://img.shields.io/badge/Download-StarlingType%200.1.0-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-lightgrey?style=for-the-badge)](#system-requirements)
 
+**English** · [简体中文](README.zh-Hans.md)
+
 ---
 
 ## What is this?
@@ -58,8 +60,6 @@ Don't feel like talking? Click the **Dictate now** button in the menu bar to ski
 - **Apple Silicon (M1 or newer)** — Intel Macs are not supported (the on-device speech engine ships Apple Silicon binaries only)
 - ~450 MB disk (most of which is the on-device speech-recognition model)
 - A working microphone
-
-> **2015 MacBook Pros:** Apple caps these at macOS Monterey, which doesn't have the menu bar API we use. Community tools like OpenCore Legacy Patcher can run Ventura on older hardware, but that's an unofficial route and we can't support it.
 
 ## Privacy
 
