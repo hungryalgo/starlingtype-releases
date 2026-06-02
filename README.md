@@ -3,7 +3,7 @@
 > **Dictate in English and 中文 without switching languages.**
 > Your voice stays on your Mac.
 
-[![Download](https://img.shields.io/badge/Download-StarlingType%200.1.0-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
+[![Download](https://img.shields.io/badge/Download-StarlingType%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-lightgrey?style=for-the-badge)](#system-requirements)
 
 **English** · [简体中文](README.zh-Hans.md)
@@ -30,7 +30,7 @@ It's named after a starling — a bird famous for vocal mimicry. **听打** (Tī
 
 ## Install (≈1 minute)
 
-1. **Download** `StarlingType-0.1.0.dmg` from the [latest release](https://github.com/hungryalgo/starlingtype-releases/releases/latest).
+1. **Download** `StarlingType-0.1.1.dmg` from the [latest release](https://github.com/hungryalgo/starlingtype-releases/releases/latest).
 2. **Open** the `.dmg`, drag **StarlingType** to **Applications**.
 3. **First launch only:** right-click the app → **Open** → confirm.
    *(This is a one-time Gatekeeper step because StarlingType is not yet signed with an Apple Developer ID. See [Why the warning?](#why-the-gatekeeper-warning) below.)*
@@ -67,7 +67,7 @@ Everything happens on your Mac. There is no cloud transcription, no telemetry th
 
 You can verify this yourself by blocking the app from network access (Settings → Network → Firewall, or Little Snitch / LuLu). Dictation still works.
 
-## Known issues in v0.1.0
+## Known issues in v0.1.1
 
 - **Permissions after an update.** macOS ties permission grants (Microphone, Accessibility) to the app's code signature. StarlingType signs every release with the same identity so your grants normally **carry over across updates** — you shouldn't have to re-grant anything. If a permission does drop after an update, StarlingType detects it on launch and offers a one-click **"Re-run Setup"** to restore it. Manual recovery if you ever need it (~20 seconds, order matters):
   1. Open the gear panel → click **Open Accessibility** (or System Settings → Privacy & Security → Accessibility)
@@ -96,7 +96,7 @@ If you're using StarlingType regularly, a one-line "still using it" message help
 
 ## What's next
 
-We have a planned platform sequence — Android (free), then Windows + Linux (free), then iOS (paid, because Apple requires it). None of those are guaranteed; they depend on whether v0.1.0 finds users. If you'd use StarlingType on a platform that isn't Mac, **email us and say so** — that's the strongest signal.
+We have a planned platform sequence — Android (free), then Windows + Linux (free), then iOS (paid, because Apple requires it). None of those are guaranteed; they depend on whether v0.1.1 finds users. If you'd use StarlingType on a platform that isn't Mac, **email us and say so** — that's the strongest signal.
 
 ## License
 

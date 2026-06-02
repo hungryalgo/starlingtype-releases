@@ -3,7 +3,7 @@
 > **中英文混说，无需切换语言即可听写。**
 > 您的语音始终留在您的 Mac 上。
 
-[![下载](https://img.shields.io/badge/下载-StarlingType%200.1.0-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
+[![下载](https://img.shields.io/badge/下载-StarlingType%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-13.0%2B-lightgrey?style=for-the-badge)](#系统要求)
 
 [English](README.md) · **简体中文**
@@ -30,7 +30,7 @@
 
 ## 安装（约 1 分钟）
 
-1. 从[最新版本](https://github.com/hungryalgo/starlingtype-releases/releases/latest)**下载** `StarlingType-0.1.0.dmg`。
+1. 从[最新版本](https://github.com/hungryalgo/starlingtype-releases/releases/latest)**下载** `StarlingType-0.1.1.dmg`。
 2. **打开** `.dmg`，把 **StarlingType** 拖到**应用程序**文件夹。
 3. **仅首次启动：** 右键点击应用 → **打开** → 确认。
    *（由于听打尚未使用 Apple Developer ID 签名，这是一次性的 Gatekeeper 步骤。原因见下方[为什么会有这个警告？](#为什么会有-gatekeeper-警告)）*
@@ -67,7 +67,7 @@
 
 您可以自行验证：阻止该应用联网（设置 → 网络 → 防火墙，或 Little Snitch / LuLu），听写依然正常工作。
 
-## v0.1.0 已知问题
+## v0.1.1 已知问题
 
 - **更新后的权限。** macOS 会把权限授权（麦克风、辅助功能）与应用的代码签名绑定。听打的每个版本都使用相同的签名身份，因此您的授权通常会**在更新后保留**——您不需要重新授权。万一某项权限在更新后失效，听打会在启动时检测到，并提供一键 **"重新运行设置"** 来恢复。如果您确实需要手动恢复（约 20 秒，顺序很重要）：
   1. 打开齿轮面板 → 点击 **打开辅助功能**（或 系统设置 → 隐私与安全性 → 辅助功能）
@@ -96,7 +96,7 @@
 
 ## 接下来
 
-我们有一个规划中的平台路线：先 Android（免费），再 Windows + Linux（免费），最后 iOS（付费，因为苹果有此要求）。这些都不是板上钉钉的，取决于 v0.1.0 能否找到用户。如果您希望在 Mac 以外的平台上使用听打，**请发邮件告诉我们**——这是最有力的信号。
+我们有一个规划中的平台路线：先 Android（免费），再 Windows + Linux（免费），最后 iOS（付费，因为苹果有此要求）。这些都不是板上钉钉的，取决于 v0.1.1 能否找到用户。如果您希望在 Mac 以外的平台上使用听打，**请发邮件告诉我们**——这是最有力的信号。
 
 ## 许可
 
