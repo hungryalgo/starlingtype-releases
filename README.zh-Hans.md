@@ -1,108 +1,70 @@
 # 听打 (StarlingType)
 
 > **中英文混说，无需切换语言即可听写。**
-> 您的语音始终留在您的 Mac 上。
-
-[![下载](https://img.shields.io/badge/下载-StarlingType%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-13.0%2B-lightgrey?style=for-the-badge)](#系统要求)
+> 您的语音绝不离开您的设备。
 
 [English](README.md) · **简体中文**
+
+[![macOS](https://img.shields.io/badge/macOS-下载%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)
+[![Android](https://img.shields.io/badge/Android-下载%200.1.0-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)
 
 ---
 
 ## 这是什么？
 
-听打是一款面向中英双语用户的 Mac 听写应用。说出唤醒词，再说一句话，文字就会出现在您的光标处——即使您在同一句话里中英文混说也没问题。音频绝不会离开您的 Mac。
+听打是一款面向**中英双语用户**的语音听写应用。开口说一句话——中英文随意混说——文字便会出现。一切都在您的**设备本地**运行，音频绝不上传。
 
 它以椋鸟（starling，一种以模仿声音著称的鸟）命名。**听打**的字面意思就是"边听边打"。
 
-## 与苹果自带听写有何不同？
+- 🗣️ **同一句话中英混说**——说"我们 schedule 一个 meeting"也没问题。
+- 🔒 **100% 本地运行**——无云端、无账号、无上传音频的遥测。
+- 🆓 **免费。**
 
-|   | 听打 | 苹果听写 |
-|---|:---:|:---:|
-| 同一句话中英文混说 | ✅ | ❌ |
-| 唤醒词激活（双手无需操作） | ✅ | ❌ |
-| 在任意文本框中可用 | ✅ | ✅ |
-| 100% 本地处理——音频留在您的 Mac 上 | ✅ | ✅* |
-| 免费 | ✅ | ✅ |
+---
 
-<sub>*在部分旧机型或特定语言下，苹果会将部分听写放到设备外处理。</sub>
+## 选择您的平台
 
-## 安装（约 1 分钟）
+### 🍎 macOS
 
-1. 从[最新版本](https://github.com/hungryalgo/starlingtype-releases/releases/latest)**下载** `StarlingType-0.1.1.dmg`。
-2. **打开** `.dmg`，把 **StarlingType** 拖到**应用程序**文件夹。
-3. **仅首次启动：** 右键点击应用 → **打开** → 确认。
-   *（由于听打尚未使用 Apple Developer ID 签名，这是一次性的 Gatekeeper 步骤。原因见下方[为什么会有这个警告？](#为什么会有-gatekeeper-警告)）*
-4. 按照应用内的设置向导操作。它会引导您完成麦克风授权，以及（可选的）光标插入权限。
+用唤醒词或点一下，即可听写到 Mac 上的任意文本框。
 
-## 如何使用
+**简要说明：** 说出唤醒词（"Hey Type" / 嘿小听），开口说话，文字便落到光标处。也可点菜单栏的**立即听写**跳过唤醒词。
 
-听打运行后（您会在菜单栏看到一个麦克风图标）：
+➡️ **[下载 macOS 0.1.1](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)** · **[完整设置指南 →](docs/guide-macos.zh-Hans.md)**
 
-**英文唤醒词：**
-- "Hey Type"
-- "Hey Starling"
+需要 macOS 13+ 及 Apple Silicon（M1 或更新）。
 
-**中文唤醒词：**
-- 嘿小听
-- 小听小听
-- 嘿听打
-- 听打听打
+### 🤖 Android
 
-说出唤醒词，听到 **pop** 提示音后即可开始说话。当您停止说话时，会播放 **tink** 提示音，文字随即出现在您的光标处（或复制到剪贴板——可在设置中选择）。
+三种听写方式，按需选择：
 
-不想说话？点击菜单栏里的 **立即听写** 按钮，即可完全跳过唤醒词。
+1. **点按听写**——打开应用，点大按钮，说话 → 文字复制到剪贴板，切到任意应用粘贴。*（无需设置。）*
+2. **听打键盘**——在任意应用切换到它并点 🎤 → 文字直接输入到文本框。
+3. **快捷设置磁贴**——随时随地**免手动唤醒词**听写 → 文字复制到剪贴板。
 
-## 系统要求
+> **唤醒词**（"Hey Type" / 嘿小听 …）仅在**快捷设置磁贴**开启时，或键盘打开且启用了相应设置时，才可免手动使用；其他情况下点按即可。
 
-- **macOS Ventura (13.0) 或更高版本**
-- **Apple 芯片（M1 或更新）**——不支持 Intel 机型（设备端语音引擎仅提供 Apple 芯片版本）
-- 约 450 MB 磁盘空间（其中大部分是设备端语音识别模型）
-- 一个可用的麦克风
+➡️ **[下载 Android 0.1.0](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)** · **[完整设置指南 →](docs/guide-android.zh-Hans.md)**
+
+需要 Android 8.0+。首次运行需一次性下载约 280 MB 语音模型。界面支持英文与简体中文。
+
+---
 
 ## 隐私
 
-一切都在您的 Mac 上完成。没有云端转录，没有上传音频的遥测，也无需创建账户。
-
-您可以自行验证：阻止该应用联网（设置 → 网络 → 防火墙，或 Little Snitch / LuLu），听写依然正常工作。
-
-## v0.1.1 已知问题
-
-- **更新后的权限。** macOS 会把权限授权（麦克风、辅助功能）与应用的代码签名绑定。听打的每个版本都使用相同的签名身份，因此您的授权通常会**在更新后保留**——您不需要重新授权。万一某项权限在更新后失效，听打会在启动时检测到，并提供一键 **"重新运行设置"** 来恢复。如果您确实需要手动恢复（约 20 秒，顺序很重要）：
-  1. 打开齿轮面板 → 点击 **打开辅助功能**（或 系统设置 → 隐私与安全性 → 辅助功能）
-  2. 在列表中**选中 StarlingType**（该行会高亮），然后**点击列表左下角的 − 按钮**移除该条目
-  3. 从弹出面板**退出 StarlingType**
-  4. 从应用程序文件夹重新启动 StarlingType
-  5. 在系统提示时授予权限
-
-  **请勿跳过退出 + 重启这一步**——在损坏的版本仍在运行时重新添加条目，正在运行的进程会保留缓存的"已拒绝"状态。最佳做法：如果遇到此情况，请在安装新版本**之前**先移除该条目。
-- **首次启动时 Gatekeeper 会警告。** 右键点击 → 打开 一次即可；macOS 会记住您的选择。（原因见下文。）
-- **唤醒词可能会混入您的第一句话**，如果您没有稍作停顿。说"Hey Type hello world"可能被转录为"Type hello world"。停顿约 300 毫秒（提示音就是您的信号）即可避免。
-
-## 为什么会有 Gatekeeper 警告
-
-听打没有使用 Apple Developer ID 签名。苹果的开发者计划每年收费 99 美元，对于一个免费、开放分发的 v1.0，我们选择跳过它，而不是把成本转嫁给您。因此 macOS 在首次启动时会显示"无法打开 StarlingType，因为它来自身份不明的开发者"。
-
-右键点击应用 → **打开** 即可绕过一次。之后 macOS 会记住您的选择。
-
-如果听打的使用量足以支撑开发者计划的费用，我们会对未来的版本进行签名 + 公证，届时此警告将消失。
+一切都在您的设备本地进行。没有云端转写、没有上传音频的遥测、也无需创建账号。您可以关闭网络再听写来亲自验证——它依然能用。
 
 ## 反馈
 
-发现了 bug、有好点子，或者某个唤醒词在您的口音下识别不佳？请发邮件至 **starlingtype+feedback@gmail.com**。
+发现问题、有想法，或某个唤醒词在您的口音下识别不佳？请邮件至 **starlingtype+feedback@gmail.com**。如果您经常使用听打，哪怕一句"还在用"也能帮助决定下一步做什么。
 
-如果您在经常使用听打，一句"还在用"的简短消息能帮助我们决定是继续以 Mac 为先，还是转向 Android / iOS / Windows。
+## 后续计划
 
-## 接下来
-
-我们有一个规划中的平台路线：先 Android（免费），再 Windows + Linux（免费），最后 iOS（付费，因为苹果有此要求）。这些都不是板上钉钉的，取决于 v0.1.1 能否找到用户。如果您希望在 Mac 以外的平台上使用听打，**请发邮件告诉我们**——这是最有力的信号。
+计划顺序：Android（现已发布），然后 Windows + Linux，再到 iOS。具体做什么取决于听打能否找到用户——如果您希望在尚未支持的平台上使用，请**发邮件告诉我们**。
 
 ## 许可
 
-听打在 v1.0 阶段为闭源。完整的最终用户许可协议（EULA）包含在应用内（菜单栏 → **Licenses**），也在本仓库的 [LICENSE](https://github.com/hungryalgo/starlingtype-releases/blob/main/LICENSE) 文件中。
-
-听打使用的第三方组件（Sherpa-ONNX、FunASR/SenseVoice、PyAudio、PortAudio、NumPy、Python）均采用宽松许可证（Apache 2.0 / MIT / BSD-3 / PSF）。它们的完整许可证文本捆绑在应用内，可通过 **Licenses** 菜单查看。
+听打在 v1.0 阶段为闭源软件。完整最终用户许可协议见 [LICENSE](LICENSE)，并随各应用一同提供。所用第三方组件（Sherpa-ONNX、FunASR/SenseVoice、PyAudio、PortAudio、NumPy、Python）均采用宽松许可（Apache 2.0 / MIT / BSD-3 / PSF），完整许可文本随应用一同提供。
 
 ---
 

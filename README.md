@@ -1,108 +1,70 @@
 # StarlingType (听打)
 
 > **Dictate in English and 中文 without switching languages.**
-> Your voice stays on your Mac.
-
-[![Download](https://img.shields.io/badge/Download-StarlingType%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-13.0%2B-lightgrey?style=for-the-badge)](#system-requirements)
+> Your voice never leaves your device.
 
 **English** · [简体中文](README.zh-Hans.md)
+
+[![macOS](https://img.shields.io/badge/macOS-Download%200.1.1-blue?style=for-the-badge&logo=apple)](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)
+[![Android](https://img.shields.io/badge/Android-Download%200.1.0-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)
 
 ---
 
 ## What is this?
 
-StarlingType is a Mac dictation app for bilingual Chinese-English speakers. Say a wake phrase, speak a sentence, and the text appears where your cursor is — even if you mix English and 中文 in the same sentence. Audio never leaves your Mac.
+StarlingType is a voice-to-text dictation app for **bilingual Chinese–English speakers**. Speak a sentence — mixing English and 中文 freely — and the words appear as text. Everything runs **on your device**; audio is never uploaded.
 
-It's named after a starling — a bird famous for vocal mimicry. **听打** (Tīng Dǎ) literally means "listen-type."
+It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīng Dǎ) literally means "listen-type."
 
-## How is it different from Apple Dictation?
+- 🗣️ **Bilingual in one sentence** — say "我们 schedule 一个 meeting" and it just works.
+- 🔒 **100% on-device** — no cloud, no account, no telemetry that sends audio.
+- 🆓 **Free.**
 
-|   | StarlingType | Apple Dictation |
-|---|:---:|:---:|
-| Bilingual English + 中文 in one sentence | ✅ | ❌ |
-| Wake-word activated (hands-free) | ✅ | ❌ |
-| Works in any text field | ✅ | ✅ |
-| 100% local — audio stays on your Mac | ✅ | ✅* |
-| Free | ✅ | ✅ |
+---
 
-<sub>*Apple processes some dictation off-device on older models or specific languages.</sub>
+## Choose your platform
 
-## Install (≈1 minute)
+### 🍎 macOS
 
-1. **Download** `StarlingType-0.1.1.dmg` from the [latest release](https://github.com/hungryalgo/starlingtype-releases/releases/latest).
-2. **Open** the `.dmg`, drag **StarlingType** to **Applications**.
-3. **First launch only:** right-click the app → **Open** → confirm.
-   *(This is a one-time Gatekeeper step because StarlingType is not yet signed with an Apple Developer ID. See [Why the warning?](#why-the-gatekeeper-warning) below.)*
-4. Follow the in-app setup wizard. It walks you through microphone access and (optional) cursor-injection permissions.
+Dictate into any text field on your Mac with a wake phrase or a click.
 
-## How to use it
+**Quick version:** Say a wake phrase ("Hey Type" / 嘿小听), speak, and the text lands at your cursor. Or click **Dictate now** in the menu bar to skip the wake phrase.
 
-Once StarlingType is running (you'll see a microphone icon in your menu bar):
+➡️ **[Download for macOS 0.1.1](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)** · **[Full setup guide →](docs/guide-macos.md)**
 
-**English wake phrases:**
-- "Hey Type"
-- "Hey Starling"
+Requires macOS 13+ on Apple Silicon (M1 or newer).
 
-**Chinese wake phrases (中文):**
-- 嘿小听
-- 小听小听
-- 嘿听打
-- 听打听打
+### 🤖 Android
 
-Say a wake phrase, hear the **pop** chirp, then dictate. When you stop talking, a **tink** chirp plays and the text appears at your cursor (or on your clipboard — your choice in settings).
+Three ways to dictate, so you can pick what fits the moment:
 
-Don't feel like talking? Click the **Dictate now** button in the menu bar to skip the wake phrase entirely.
+1. **Tap to dictate** — open the app, tap the big button, speak → text is copied to your clipboard to paste anywhere. *(Zero setup.)*
+2. **The StarlingType keyboard** — switch to it in any app and tap 🎤 → text is typed straight into the field.
+3. **The Quick Settings tile** — for **hands-free wake-word** dictation from anywhere → text goes to your clipboard.
 
-## System requirements
+> **Wake words** ("Hey Type" / 嘿小听 …) work hands-free only when the **Quick Settings tile** is on, or while the StarlingType keyboard is open with the optional setting enabled. Otherwise, just tap.
 
-- **macOS Ventura (13.0) or later**
-- **Apple Silicon (M1 or newer)** — Intel Macs are not supported (the on-device speech engine ships Apple Silicon binaries only)
-- ~450 MB disk (most of which is the on-device speech-recognition model)
-- A working microphone
+➡️ **[Download for Android 0.1.0](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)** · **[Full setup guide →](docs/guide-android.md)**
+
+Requires Android 8.0+. A one-time ~280 MB speech-model download on first run. UI available in English and 简体中文.
+
+---
 
 ## Privacy
 
-Everything happens on your Mac. There is no cloud transcription, no telemetry that sends audio, and no account to create.
-
-You can verify this yourself by blocking the app from network access (Settings → Network → Firewall, or Little Snitch / LuLu). Dictation still works.
-
-## Known issues in v0.1.1
-
-- **Permissions after an update.** macOS ties permission grants (Microphone, Accessibility) to the app's code signature. StarlingType signs every release with the same identity so your grants normally **carry over across updates** — you shouldn't have to re-grant anything. If a permission does drop after an update, StarlingType detects it on launch and offers a one-click **"Re-run Setup"** to restore it. Manual recovery if you ever need it (~20 seconds, order matters):
-  1. Open the gear panel → click **Open Accessibility** (or System Settings → Privacy & Security → Accessibility)
-  2. **Select StarlingType** in the list (the row becomes highlighted), then **click the − button at the bottom-left of the list** to remove the entry
-  3. **Quit StarlingType** from the popover
-  4. Relaunch StarlingType from your Applications folder
-  5. Grant the permission when the system prompts you
-
-  **Don't skip the quit + relaunch** — re-adding the entry while the broken version is still running leaves the running process with a cached "denied" state. Best practice if you ever hit this: remove the entry **before** installing the new version.
-- **Gatekeeper warns on first launch.** Right-click → Open once; macOS remembers your choice. (See below for the why.)
-- **Wake phrase may bleed into your first sentence** if you don't pause briefly. Saying "Hey Type hello world" can transcribe as "Type hello world." Pause ~300ms (the chirp is your cue) and you'll be clean.
-
-## Why the Gatekeeper warning?
-
-StarlingType is not signed with an Apple Developer ID. Apple's Developer Program costs $99/year, and for a free, open-distribution v1.0 we chose to skip it rather than pass the cost on. macOS therefore shows "StarlingType can't be opened because it is from an unidentified developer" on first launch.
-
-Right-click the app → **Open** bypasses this once. macOS remembers your choice afterward.
-
-If StarlingType gets enough use to justify the Developer Program, we'll sign + notarize future builds and this warning goes away.
+Everything happens on your device. There is no cloud transcription, no telemetry that sends audio, and no account to create. You can verify it by turning off the network and dictating anyway — it still works.
 
 ## Feedback
 
-Have a bug, an idea, or a wake phrase that doesn't detect well in your accent? Email **starlingtype+feedback@gmail.com**.
-
-If you're using StarlingType regularly, a one-line "still using it" message helps decide whether to keep building Mac-first or pivot to Android / iOS / Windows.
+Found a bug, have an idea, or a wake phrase that doesn't detect well in your accent? Email **starlingtype+feedback@gmail.com**. If you use StarlingType regularly, even a one-line "still using it" helps decide what to build next.
 
 ## What's next
 
-We have a planned platform sequence — Android (free), then Windows + Linux (free), then iOS (paid, because Apple requires it). None of those are guaranteed; they depend on whether v0.1.1 finds users. If you'd use StarlingType on a platform that isn't Mac, **email us and say so** — that's the strongest signal.
+Planned sequence: Android (now), then Windows + Linux, then iOS. What gets built depends on whether StarlingType finds users — if you'd use it on a platform it's not on yet, **email and say so**.
 
 ## License
 
-StarlingType is closed-source for v1.0. The full End User License Agreement is included inside the app (menu bar → **Licenses**) and in the [LICENSE](https://github.com/hungryalgo/starlingtype-releases/blob/main/LICENSE) file of this repo.
-
-Third-party components used by StarlingType (Sherpa-ONNX, FunASR/SenseVoice, PyAudio, PortAudio, NumPy, Python) are all permissively licensed (Apache 2.0 / MIT / BSD-3 / PSF). Their full license texts are bundled inside the app and viewable via the **Licenses** menu.
+StarlingType is closed-source for v1.0. The full EULA is in [LICENSE](LICENSE) and bundled inside each app. Third-party components (Sherpa-ONNX, FunASR/SenseVoice, PyAudio, PortAudio, NumPy, Python) are permissively licensed (Apache 2.0 / MIT / BSD-3 / PSF); their full texts are bundled inside the apps.
 
 ---
 
