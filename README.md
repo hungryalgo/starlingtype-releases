@@ -12,7 +12,7 @@
 
 ## What is this?
 
-StarlingType is a voice-to-text dictation app for **English and Standard Chinese (普通话)**. Speak, and your words appear as text — it auto-detects which language you're speaking. Everything runs **on your device**; audio is never uploaded.
+StarlingType is a voice-to-text dictation app for **English and Chinese**. Speak, and your words appear as text — it auto-detects which language you're speaking. Everything runs **on your device**; audio is never uploaded.
 
 It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīng Dǎ) literally means "listen-type."
 
