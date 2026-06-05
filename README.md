@@ -68,4 +68,4 @@ StarlingType is closed-source for v1.0. The full EULA is in [LICENSE](LICENSE) a
 
 ---
 
-<sub>Copyright © 2026 Spec Envoy. All rights reserved.</sub>
+<sub>Copyright © 2026 SpecEnvoy. All rights reserved.</sub>

@@ -68,4 +68,4 @@
 
 ---
 
-<sub>版权所有 © 2026 Spec Envoy。保留所有权利。</sub>
+<sub>版权所有 © 2026 SpecEnvoy。保留所有权利。</sub>
