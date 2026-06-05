@@ -26,8 +26,8 @@
 
 两个独立的应用，按设备选择：
 
-- 🍎 **Mac（macOS）** — 用于您的**电脑**（台式机/笔记本）：[StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · 需要 macOS 13+ 及 Apple Silicon（M1 或更新）
-- 🤖 **Android** — 用于您的**手机/平板**：[StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · 需要 Android 8.0+（首次运行需一次性下载约 280 MB 语音模型）
+- 🍎 **Mac（macOS）** — 用于您的**电脑**（台式机/笔记本）：[StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · 需要 macOS 13+ 及 Apple Silicon（M1 或更新） · [完整设置指南 →](https://specenvoy.com/starlingtype/zh/mac)
+- 🤖 **Android** — 用于您的**手机/平板**：[StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · 需要 Android 8.0+（首次运行需一次性下载约 280 MB 语音模型） · [完整设置指南 →](https://specenvoy.com/starlingtype/zh/android)
 
 ## 设置与使用方法
 
