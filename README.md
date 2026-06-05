@@ -26,8 +26,8 @@ It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīn
 
 Two separate apps — pick the one for your device:
 
-- 🍎 **Mac (macOS)** — for your **computer** (desktop/laptop): [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · requires macOS 13+ on Apple Silicon (M1 or newer) · [full setup guide →](https://specenvoy.com/starlingtype/mac)
 - 🤖 **Android** — for your **phone/tablet**: [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · requires Android 8.0+ (one-time ~280 MB model download on first run) · [full setup guide →](https://specenvoy.com/starlingtype/android)
+- 🍎 **Mac (macOS)** — for your **computer** (desktop/laptop): [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · requires macOS 13+ on Apple Silicon (M1 or newer) · [full setup guide →](https://specenvoy.com/starlingtype/mac)
 
 ## Setup & how to use it
 
