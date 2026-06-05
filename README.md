@@ -22,31 +22,18 @@ It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīn
 
 ---
 
-## Choose your platform
+## Download
 
-### 🍎 macOS
+- 🍎 **macOS** — [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · requires macOS 13+ on Apple Silicon (M1 or newer)
+- 🤖 **Android** — [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · requires Android 8.0+ (one-time ~280 MB model download on first run)
 
-Dictate into any text field on your Mac with a wake phrase or a click.
+## Setup & how to use it
 
-**Quick version:** Say a wake phrase ("Hey Type" / 嘿小听), speak, and the text lands at your cursor. Or click **Dictate now** in the menu bar to skip the wake phrase.
+📖 **Full guide — install, first-run setup, wake phrases, and the three ways to dictate (English & 中文):**
 
-➡️ **[Download for macOS 0.1.1](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)** · **[Full setup guide →](docs/guide-macos.md)**
+### 👉 [**specenvoy.com/starlingtype**](https://specenvoy.com/starlingtype)
 
-Requires macOS 13+ on Apple Silicon (M1 or newer).
-
-### 🤖 Android
-
-Three ways to dictate, so you can pick what fits the moment:
-
-1. **Tap to dictate** — open the app, tap the big button, speak → text is copied to your clipboard to paste anywhere. *(Zero setup.)*
-2. **The StarlingType keyboard** — switch to it in any app and tap 🎤 → text is typed straight into the field.
-3. **The Quick Settings tile** — for **hands-free wake-word** dictation from anywhere → text goes to your clipboard.
-
-> **Wake words** ("Hey Type" / 嘿小听 …) work hands-free only when the **Quick Settings tile** is on, or while the StarlingType keyboard is open with the optional setting enabled. Otherwise, just tap.
-
-➡️ **[Download for Android 0.1.0](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)** · **[Full setup guide →](docs/guide-android.md)**
-
-Requires Android 8.0+. A one-time ~280 MB speech-model download on first run. UI available in English and 简体中文.
+This repository hosts the app downloads and the license; the complete step-by-step walkthrough lives on the site.
 
 ---
 

@@ -22,31 +22,18 @@
 
 ---
 
-## 选择您的平台
+## 下载
 
-### 🍎 macOS
+- 🍎 **macOS** — [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · 需要 macOS 13+ 及 Apple Silicon（M1 或更新）
+- 🤖 **Android** — [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · 需要 Android 8.0+（首次运行需一次性下载约 280 MB 语音模型）
 
-用唤醒词或点一下，即可听写到 Mac 上的任意文本框。
+## 设置与使用方法
 
-**简要说明：** 说出唤醒词（"Hey Type" / 嘿小听），开口说话，文字便落到光标处。也可点菜单栏的**立即听写**跳过唤醒词。
+📖 **完整指南——安装、首次设置、唤醒词、以及三种听写方式（中英双语）：**
 
-➡️ **[下载 macOS 0.1.1](https://github.com/hungryalgo/starlingtype-releases/releases/tag/v0.1.1)** · **[完整设置指南 →](docs/guide-macos.zh-Hans.md)**
+### 👉 [**specenvoy.com/starlingtype/zh**](https://specenvoy.com/starlingtype/zh)
 
-需要 macOS 13+ 及 Apple Silicon（M1 或更新）。
-
-### 🤖 Android
-
-三种听写方式，按需选择：
-
-1. **点按听写**——打开应用，点大按钮，说话 → 文字复制到剪贴板，切到任意应用粘贴。*（无需设置。）*
-2. **听打键盘**——在任意应用切换到它并点 🎤 → 文字直接输入到文本框。
-3. **快捷设置磁贴**——随时随地**免手动唤醒词**听写 → 文字复制到剪贴板。
-
-> **唤醒词**（"Hey Type" / 嘿小听 …）仅在**快捷设置磁贴**开启时，或键盘打开且启用了相应设置时，才可免手动使用；其他情况下点按即可。
-
-➡️ **[下载 Android 0.1.0](https://github.com/hungryalgo/starlingtype-releases/releases/tag/android-v0.1.0)** · **[完整设置指南 →](docs/guide-android.zh-Hans.md)**
-
-需要 Android 8.0+。首次运行需一次性下载约 280 MB 语音模型。界面支持英文与简体中文。
+本仓库托管应用下载与许可协议；完整的分步教程在网站上。
 
 ---
 
