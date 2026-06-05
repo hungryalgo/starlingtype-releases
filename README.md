@@ -12,11 +12,11 @@
 
 ## What is this?
 
-StarlingType is a voice-to-text dictation app for **bilingual Chinese–English speakers**. Speak a sentence — mixing English and 中文 freely — and the words appear as text. Everything runs **on your device**; audio is never uploaded.
+StarlingType is a voice-to-text dictation app for **English and Standard Chinese (普通话)**. Speak, and your words appear as text — it auto-detects which language you're speaking. Everything runs **on your device**; audio is never uploaded.
 
 It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīng Dǎ) literally means "listen-type."
 
-- 🗣️ **Bilingual in one sentence** — say "我们 schedule 一个 meeting" and it just works.
+- 🗣️ **One language or both** — dictate in just English, just 中文, or mix them in a sentence ("我们 schedule 一个 meeting"). Single-language is completely fine; you're never required to mix.
 - 🔒 **100% on-device** — no cloud, no account, no telemetry that sends audio.
 - 🆓 **Free.**
 
@@ -24,8 +24,10 @@ It's named after the starling, a bird famous for vocal mimicry. **听打** (Tīn
 
 ## Download
 
-- 🍎 **macOS** — [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · requires macOS 13+ on Apple Silicon (M1 or newer)
-- 🤖 **Android** — [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · requires Android 8.0+ (one-time ~280 MB model download on first run)
+Two separate apps — pick the one for your device:
+
+- 🍎 **Mac (macOS)** — for your **computer** (desktop/laptop): [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · requires macOS 13+ on Apple Silicon (M1 or newer)
+- 🤖 **Android** — for your **phone/tablet**: [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · requires Android 8.0+ (one-time ~280 MB model download on first run)
 
 ## Setup & how to use it
 

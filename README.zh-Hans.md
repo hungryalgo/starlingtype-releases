@@ -12,11 +12,11 @@
 
 ## 这是什么？
 
-听打是一款面向**中英双语用户**的语音听写应用。开口说一句话——中英文随意混说——文字便会出现。一切都在您的**设备本地**运行，音频绝不上传。
+听打是一款**英文与标准中文（普通话）**的语音听写应用。开口说，文字便出现——它会自动判断您说的是哪种语言。一切都在您的**设备本地**运行，音频绝不上传。
 
 它以椋鸟（starling，一种以模仿声音著称的鸟）命名。**听打**的字面意思就是"边听边打"。
 
-- 🗣️ **同一句话中英混说**——说"我们 schedule 一个 meeting"也没问题。
+- 🗣️ **一种语言或两种都行**——可以只说英文、只说中文，也可以在一句话里混说（"我们 schedule 一个 meeting"）。只用一种语言完全没问题，绝不强制混说。
 - 🔒 **100% 本地运行**——无云端、无账号、无上传音频的遥测。
 - 🆓 **免费。**
 
@@ -24,8 +24,10 @@
 
 ## 下载
 
-- 🍎 **macOS** — [StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · 需要 macOS 13+ 及 Apple Silicon（M1 或更新）
-- 🤖 **Android** — [StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · 需要 Android 8.0+（首次运行需一次性下载约 280 MB 语音模型）
+两个独立的应用，按设备选择：
+
+- 🍎 **Mac（macOS）** — 用于您的**电脑**（台式机/笔记本）：[StarlingType-0.1.1.dmg](https://github.com/hungryalgo/starlingtype-releases/releases/download/v0.1.1/StarlingType-0.1.1.dmg) · 需要 macOS 13+ 及 Apple Silicon（M1 或更新）
+- 🤖 **Android** — 用于您的**手机/平板**：[StarlingType-Android-0.1.0.apk](https://github.com/hungryalgo/starlingtype-releases/releases/download/android-v0.1.0/StarlingType-Android-0.1.0.apk) · 需要 Android 8.0+（首次运行需一次性下载约 280 MB 语音模型）
 
 ## 设置与使用方法
 
